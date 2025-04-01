@@ -59,12 +59,5 @@ ostream& operator << (ostream& os, const complex_number<T>& c) {
 
     
 int main() {
-    complex_number<double> cn(3.5, -2.1);  // Specificato il tipo, rimosso il template errato
-
-    complex_number<double> cn_coniugato = cn.metodo_coniugato();  // Corretta la chiamata a metodo_coniugato()
-
-    cout << cn << endl;
-    cout << cn_coniugato << endl;  
-
     return 0;
 }
